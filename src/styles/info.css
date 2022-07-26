@@ -1,0 +1,43 @@
+.info_countryName{
+    text-align: center;
+    font-size: bold;
+    color: #fff;
+}
+
+
+
+.info_conditions{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    align-items: center;
+    max-height: 15vh;
+}
+.info_left{
+    max-width: 90%;
+}
+.info_left_icon{
+    width: 100px;
+    height: 100px;
+}
+
+.info_right{
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.info_right_temperture{
+    font-weight: bold;
+}
+
+.info_map{
+    max-width: 100%;
+    border: 2px solid #000;
+}
+
+@media all and (max-width:350px){
+    .info_conditions{
+        justify-content: space-between;
+    }
+}
